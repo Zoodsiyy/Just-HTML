@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>iFrames</title>
+    </head>
+    <body>
+        <h1>iFrames</h1>
+        <h3>Wikipedia-Artikel</h3>
+        <iframe width="400px" height="300px" style="border:none" src="https://de.wikipedia.org/wiki/Inlineframe"></iframe>
+        <iframe width="400px" height="300px" name="iframeA"></iframe>
+        <p><a href="https://de.wikipedia.org/wiki/Inlineframe" target="iframeA">Wikipedia</a></p>
+        <h3>Youtube-Videos einbetten</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/FE1CqL7Fbsg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </body>
+</html>
+
+<!-- Mit iFrames kann man Websites innerhalb einer Website öffnen. Dazu kann man auch die Höhe sowie Breite einstellen sowie dass die Website keinen Rahmen haben soll (dazu nutzt man style="border:none")
+
+Ein iFrame kann auch ein Target für ein Link sein. Ein Link auf unserer Homepage kann auch was in unserem iFrame öffnen. Dazu legen wir uns einfach eine neues iFrame an und bennen ihn mit name="iframeA", legen uns danach einen <p> an und innerhalb des Paragraphen einen Link. Hier haben wir einfach den gleichen Link genutzt wie im ersten Beispiel. Wichtig ist, dass wir traget="iframeA" nutzen. 
+
+iFrame wird für auch für Ads benutzt. 

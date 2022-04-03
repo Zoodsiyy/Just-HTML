@@ -1,0 +1,58 @@
+<!DOCTYPE htmal>
+<html>
+    <head>
+        <title>Tabellen</title>
+    </head>
+    <body>
+       <h1>Tabellen</h1>
+        <p><b>Tabellen</b> stellen Informationen in
+        Spalten und Zeilen dar.</p>
+        <hr>
+        <table>
+            <thead>
+            <caption>Kontake</caption>
+            <tr>
+                <th>Geschlecht</th>
+                <th>Vorname</th>
+                <th>Nachmame</th>
+                <th>Adresse</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                    <td rowspan="2">Mann</td>
+                    <td>Peter</td>
+                    <td>Müller</td>
+                    <td>Haupstraße</td>
+                    <td>34</td>
+            </tr>
+             <tr>
+                    <td>Andy</td>
+                    <td>Krass</td>
+                    <td>Zuckerweg</td>
+                    <td>2</td>
+            </tr> 
+            <tr>
+                    <td rowspan="2">Frau</td>
+                    <td>Emily</td>
+                    <td>Jung</td>
+                    <td>Seestraße</td>
+                    <td>23</td>
+            </tr> 
+            <tr>
+                    <td>Roberta</td>
+                    <td>Bergmann</td>
+                    <td>Berliner Ring</td>
+                    <td>3</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
+
+<!-- Tabellen werden mit <table> erstellt. Da in HTML die Tabellen in einzelnen Zeilen verwaltet werden muss man eine <tr> einfassen. 
+Danach gehts los. Man erstellt mit <th> die Überschriften. Danach erstellt man (nachdem man wieder ein <tr> eingefasst hast) die Daten mit <td>! 
+
+Mit rowspan="2" sagt man quasi, dass ein Eintrag über mehrere Zeilen reicht. Mit colspan="2" würde man Einrückungen vornehmen. 
+
+Zur Übersichtlichkeit ist üblich, dass man es etwas strukturiert. Deswegen haben wir hier <thead> und <tbody> benutzt. Hat keinerlei Auswirkung auf den Code. Nur ist man damit besser bedient, wenn es um die Lesbarkeit des HTML Codes geht. 
